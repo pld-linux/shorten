@@ -2,7 +2,7 @@ Summary:	Shorten - fast compression for waveform files
 Summary(pl):	Shorten - szybka kompresja plików ze spróbkowanym d¼wiêkiem
 Name:		shorten
 Version:	2.3a
-Release:	1
+Release:	2
 License:	non-commercial distribution and encoding
 Group:		Applications/Sound
 Source0:	http://www.hornig.net/files/shorten/linux/source/%{name}-%{version}.tar.gz
@@ -28,7 +28,7 @@ bezstratnej i 5:1 w przypadku stratnej.
 %build
 %{__make} \
 	CC="%{__cc}" \
-	CFLAGS="%{rpmcflags}"
+	CFLAGS="%{rpmcflags} -DHAVE_STDARG_H"
 
 %install
 rm -rf $RPM_BUILD_ROOT
