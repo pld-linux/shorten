@@ -1,5 +1,5 @@
 Summary:	Shorten - fast compression for waveform files
-Summary(pl.UTF-8):   Shorten - szybka kompresja plików ze spróbkowanym dźwiękiem
+Summary(pl.UTF-8):	Shorten - szybka kompresja plików ze spróbkowanym dźwiękiem
 Name:		shorten
 Version:	2.3a
 Release:	2
