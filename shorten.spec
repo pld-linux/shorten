@@ -1,5 +1,5 @@
 Summary:	Shorten - fast compression for waveform files
-Summary(pl):	Shorten - szybka kompresja plik體 ze spr骲kowanym d紈i阫iem
+Summary(pl.UTF-8):   Shorten - szybka kompresja plik贸w ze spr贸bkowanym d藕wi臋kiem
 Name:		shorten
 Version:	2.3a
 Release:	2
@@ -16,10 +16,10 @@ Shorten provides compression for waveform files, such as RIFF WAVE
 compression in the lossless case and up to 5:1 compression in the
 lossy case.
 
-%description -l pl
-Shorten kompresuje pliki ze spr骲kowanym d紈i阫iem, takie jak RIFF
-WAVE (.wav). Obs硊giwana jest zar體no bezstratna jak i stratna
-kompresja ze wsp蟪czynnikiem oko硂 2:1 w przypadku kompresji
+%description -l pl.UTF-8
+Shorten kompresuje pliki ze spr贸bkowanym d藕wi臋kiem, takie jak RIFF
+WAVE (.wav). Obs艂ugiwana jest zar贸wno bezstratna jak i stratna
+kompresja ze wsp贸艂czynnikiem oko艂o 2:1 w przypadku kompresji
 bezstratnej i 5:1 w przypadku stratnej.
 
 %prep
